@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paragliding Adventures | WeatherWise</title>
+    <link rel="stylesheet" href="mainpage.css">
+</head>
+<body>
+    <!-- Header -->
+    <header role="banner">
+        <a class="logo" href="#">WeatherWise</a>
+        <nav aria-label="Main Navigation">
+            <a href="mainpage.html">Home</a>
+            <a href="index.html">Weather Checker</a>
+            <a href="#footer">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Sky Is Not The Limit</h1>
+            <p>Experience the thrill of paragliding and see the world from a new perspective.</p>
+            <a href="#about" class="hero-button">Get Started</a>
+            <video autoplay loop muted playsinline class="back-video">
+                <source src="images/day/paragliding.mp4" type="video/mp4">
+            </video>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="info-section" id="about">
+        <h2>Why Choose WeatherWise Paragliding?</h2>
+        <div class="information-board">
+            <div class="information">
+                <img src="images/day/paragliding1.jpg" alt="Breathtaking Views">
+                <h3>Breathtaking Views</h3>
+                <p>Soar above stunning landscapes, mountains, and coastlines for views often unreachable by other means.</p>
+            </div>
+            <div class="information">
+                <img src="images/day/paragliding2.jpg" alt="Stress Relief">
+                <h3>Stress Relief</h3>
+                <p>Feel the tranquility of soaring through the air for a mental break from daily life.</p>
+            </div>
+            <div class="information">
+                <img src="images/day/paragliding3.jpg" alt="Community and Camaraderie">
+                <h3>Community and Camaraderie</h3>
+                <p>Join a community of like-minded adventure enthusiasts and make new friends along the way.</p>
+            </div>
+            <div class="information">
+                <img src="images/day/paragliding4.jpg" alt="Paragliding 4" height="350" width="250">
+                <h3>Unique Experience</h3>
+                <p>It’s an adventure unlike any other, combining elements of hiking, flying, and outdoor exploration into one unforgettable experience.</p>
+            </div>
+            <div class="information">
+                <img src="images/day/paragliding5.jpg" alt="Paragliding 5" height="350" width="250">
+                <h3>Connection with Nature</h3>
+                <p>Paragliding allows you to immerse yourself in nature, enjoying the beauty and serenity of the environment while flying at heights.</p>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Checklist Section -->
+    <section class="info-section" id="about">
+        <h2 class="centered-heading">Paragliding Lists</h2>
+        <table class="events-submitted">
+            <tr>
+                <th>Paragliding Date</th>
+                <th>Price</th>
+                <th>Venue</th>
+                <th>Constructor Contact Number</th>
+                <th>Constructor E-mail</th>
+            </tr>
+            <tr>
+                <td>12/4/2024</td>
+                <td>RM 450.00</td>
+                <td>Bukit Kokol</td>
+                <td>017-440-2375</td>
+                <td>afiqhilman@gmail.com</td>
+            </tr>
+            <tr>
+                <td>12/5/2024</td>
+                <td>RM 240.00</td>
+                <td>Bukit Jugra</td>
+                <td>016-223-1610</td>
+                <td>zuhailizzudin@gmail.com</td>
+            </tr>
+            <tr>
+                <td>30/10/2024</td>
+                <td>RM 120.00</td>
+                <td>Gunung Jerai</td>
+                <td>018-249-0267</td>
+                <td>afiqdanial@gmail.com</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Checklist Section -->
+    <section class="checklists" id="checklists">
+        <h2 class="title">Paragliding Checklists</h2>
+        <div class="checklists-board">
+            <div class="todo-app">
+                <div class="row">
+                    <input type="text" id="input-box" placeholder="Add Items">
+                    <button onclick="addTask()">Add</button>
+                </div>
+                <br><ul id="list-container"></ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <div class="footer" id="footer">
+        <div class="container">
+            <div class="footer-col-1">
+                <h3>Contact Us!</h3>
+                <p>WeatherWise Sdn Bhd, Lot 2333 Jalan Kajang Seremban, 43700 Beranang, Selangor, Malaysia<br> 
+                    +6 (03) 876 68935 / 36<br> +6 (03) 876 68940<br></p>
+            </div>
+            <div class="footer-col-2">
+                <h2>WeatherWise</h2>
+            </div>
+            <div class="footer-col-3">
+                <h3>Website Link</h3>
+                <ul>
+                    <li>WeatherWise.com</li>
+                </ul>
+            </div>
+            <div class="footer-col-5">
+                <h3>Follow Us!</h3>
+                <ul>
+                    <li><img src="images/day/facebook.png" alt="Facebook"></li>
+                    <li><img src="images/day/instagram.png" alt="Instagram"></li>
+                    <li><img src="images/day/whatsapp.png" alt="Whatsapp"></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="Copyright">Copyright 2024 - Afiq Hilman</p>
+    </div>
+    <script src="mainpage.js"></script>
+</body>
+</html>
